@@ -1,0 +1,105 @@
+/* Center the h1 element */
+body{
+    background-color: beige;
+}     
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+}
+   
+    /* Style the form */
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+label {
+    margin-right: 10px;
+}
+  
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+}
+  
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the current weather and forecast sections */
+#current-weather, #forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+  
+.card h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+  
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+  
+.card p {
+    margin: 0;
+    font-size: 0.9em;
+}
+  
+/* Style the search history section */
+#search-history {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+#search-history li {
+    margin-bottom: 5px;
+}
+  
+#search-history a {
+    text-decoration: none;
+    color: #000;
+}
+  
+#search-history a:hover {
+    text-decoration: underline;
+}
+  
+.forecast-day{
+    background-color: lightblue;
+}
+
+.weather-data{
+    background-color: lightblue;
+}
