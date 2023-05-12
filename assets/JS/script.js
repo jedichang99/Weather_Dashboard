@@ -137,7 +137,7 @@ $("#search-form").on("submit", function (event) {
     $("#search-history").append(listItem);
   });
 });
-
+//pre-saved button.
 const cityButtons = document.querySelectorAll(".city-btn");
 
 for (let i = 0; i < cityButtons.length; i++) {
